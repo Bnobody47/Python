@@ -23,7 +23,7 @@ button.pack(side=tk.LEFT)
 Close = tk.Button(
     frame,
     text="QUIT",
-    command=squit)
+    command=quit)
 Close.pack(side=tk.LEFT)
 
 root.mainloop()
