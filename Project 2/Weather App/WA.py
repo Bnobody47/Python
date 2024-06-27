@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-search = "weather in jalna"
+search = "weather in addis abeba"
 url = f"https://www.google.com/search?&q={search}"
 
 r = requests.get(url)
